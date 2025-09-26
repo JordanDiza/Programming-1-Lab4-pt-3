@@ -32,4 +32,12 @@ private MusicPlayer player = <object reference>
         }
         }
         
-#26
+#27 I made a method that plys all tracks
+public void playArtist(String artist) {
+        for (String filename : files)  {
+            if(filename.contains(artist)) {
+                player.playSample(filename);
+            }
+            
+        }
+    }

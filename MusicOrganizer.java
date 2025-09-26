@@ -85,6 +85,15 @@ public class MusicOrganizer
             System.out.println("No matches found for: " + searchString);
         }
         }
+        
+    public void playArtist(String artist) {
+        for (String filename : files)  {
+            if(filename.contains(artist)) {
+                player.playSample(filename);
+            }
+            
+        }
+    }
     
     /**
      * Remove a file from the collection.
