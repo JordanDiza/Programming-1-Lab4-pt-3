@@ -41,3 +41,8 @@ public void playArtist(String artist) {
             
         }
     }
+    
+#28 For each loop header
+for Track track : trackList) {
+
+}
