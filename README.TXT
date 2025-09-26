@@ -8,3 +8,12 @@ test test
 #23 I set a breakpoint and used to the debugger. 
 private ArrayList<String> file = <object reference>
 private MusicPlayer player = <object reference>
+
+#24  public void listWithIndex()
+    {
+        int position = 0;
+        for(String filename : files) {
+            System.out.println(position + ":" + filename);
+            position++;
+        }
+    }
